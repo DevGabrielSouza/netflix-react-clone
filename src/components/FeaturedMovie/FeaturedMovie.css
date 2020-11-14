@@ -1,0 +1,105 @@
+.featuredMovie{
+    display: flex;
+    align-items: center;
+    width: inherit;
+    height: inherit;
+    padding: 0px 60px;
+    background: linear-gradient(to top, #141414 10%, transparent 90%), 
+    linear-gradient(to right, #141414 10%, transparent 90%);
+}
+
+.featuredMovie--tvinfo{
+    display: flex;
+    grid-gap: 20px;
+    font-weight: 700;
+    margin: 15px 0px;
+}
+
+.featiredMovie--popularity{
+    color: #58b455;
+}
+
+.featuredMovie--title{
+    font-size: 60px;
+    color: #fff;
+}
+
+.featuredMovie--info{
+    max-width: 500px;
+}
+
+.featuredMovie--info--content{
+    color: #999;
+}
+
+.featuredMovie--description{
+    font-size: 1.1vw;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.45);
+    line-height: normal;
+}
+
+.featuredMovie--cover{
+    max-width: 100%;
+}
+
+.featuredMovie--buttons{
+    margin: 15px 0px;
+}
+
+.featuredMovie--buttons a{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all ease .2s;
+}
+
+.featuredMovie--buttons a:hover{
+    opacity: 0.7;
+}
+
+.featuredMovie--buttons a:not(:first-child) {
+    margin-left: 15px;
+}
+
+
+.featuredMovie--button-play{
+    background: #fff;
+    color: #141414;
+}
+
+.featuredMovie--button-addToList{
+    background: #383838;
+    color: #fff;
+}
+
+
+@media(max-width: 760px){
+
+    .featuredMovie{
+        padding: 0px 40px;
+    }
+
+    .featuredMovie--title{
+        font-size: 28px !important;
+        line-height: 28px;
+    }
+
+    .featuredMovie--tvinfo{
+        flex-wrap: wrap;
+        grid-gap: 5 !important;
+    }
+
+    .featuredMovie--description {
+        font-size: 16px !important;
+    }
+
+    .featuredMovie--buttons a{
+        padding: 5px 15px !important;
+    }
+
+    .featuredMovie--buttons a:not(:first-child){
+        margin-left: 10px !important;
+    }
+}
