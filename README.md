@@ -24,7 +24,7 @@
     Clone of Netflix interface, by using React!
     <br />
     <br />
-    <a href="http://netflix-clone.devgabrielsouza.com.br/" target="_blank">View Demo (Visit Site) </a>
+    <a href="#" target="_blank">View Demo (Visit Site) </a>
     ·
     <a href="https://github.com/DevGabrielSouza/netflix-react-clone/issues">Report Bug</a>
     ·
@@ -135,7 +135,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Dev Gabriel Souza - [@gabrielsouzadev](https://twitter.com/gabrielsouzadev) - contato@devgabrielsouza.com.br
 
-Project Link: [http://netflix-clone.devgabrielsouza.com.br/](http://netflix-clone.devgabrielsouza.com.br/)
+Project Link: [#](#)
 
 
 
